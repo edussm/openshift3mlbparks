@@ -5,4 +5,4 @@ jdk:
 
 
 test: mvn test
-install: mvn install -DskipTests=true
+install: mvn -Popenshift install -DskipTests=true
